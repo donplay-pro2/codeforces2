@@ -45,9 +45,9 @@ int gcd(int x, int y)
     }
     return a;
 }
-int fraction ::operator[](int i)
+int fraction ::operator[](int a)
 {
-    if (i == 0)
+    if (a == 0)
         return num;
     else
         return denom;
